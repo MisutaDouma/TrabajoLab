@@ -1,0 +1,17 @@
+package ar.edu.lab.domain;
+public class Moto extends Vehiculo{
+    protected int cilindrada;
+    
+    public Moto(String marca, String modelo, double precioPorDia, int cilindrada) {
+        super(marca, modelo, precioPorDia);
+        this.cilindrada= cilindrada;
+    }
+
+    @Override
+    public String mostrarDetalles() {
+        // TODO Auto-generated method stub
+        return "MOTO: " +super.mostrarDetalles()+" Cilindrada: "+cilindrada;
+    }
+    
+
+}
