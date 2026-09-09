@@ -1,3 +1,3 @@
 # TrabajoLab
 
-este es el repositorio gordita
+este es el repositorio del tp1
