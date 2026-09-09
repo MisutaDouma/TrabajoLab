@@ -1,0 +1,17 @@
+package ar.edu.lab.domain;
+
+public class Auto extends Vehiculo{
+    protected int puertas;
+
+    public Auto(String marca, String modelo, double precioPorDia, int puertas) {
+        super(marca, modelo, precioPorDia);
+        this.puertas= puertas;
+    }
+
+    @Override
+    public String mostrarDetalles() {
+        // TODO Auto-generated method stub
+        return "AUTO: " + super.mostrarDetalles() + " Puertas: " + puertas;
+    }
+    
+}
