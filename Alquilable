@@ -1,0 +1,5 @@
+package ar.edu.lab.domain;
+
+public interface Alquilable {
+    public double calcularPrecio(double dias);
+}
